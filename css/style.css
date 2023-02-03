@@ -1,0 +1,60 @@
+.imagen-header {
+    width: 870px;
+    position: relative;
+    padding: 0;
+}
+
+.info-section-important {
+    font-family: 'Source Serif 4', sans-serif;
+    text-align: left;
+    font-size: xx-large;
+    margin-top: 8rem;
+}
+
+.title {
+    font-family: 'Source Serif 4', sans-serif;
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 30px;
+}
+td {
+    border: solid;
+    border-color: rgb(222, 184, 135);
+}
+
+.paragraph {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+}
+
+.paragraph-2 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.title-2 {
+    font-family: 'Source Serif 4', sans-serif;
+    text-align: center;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-size: 30px;
+}
+
+.paragraph-3 {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}

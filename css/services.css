@@ -1,0 +1,70 @@
+.service-cards {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-2 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 1.5%;
+    border-radius: 10px;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box .hover {
+    width: 0%;
+    height: 70vh;
+    background-color: rgba(222, 184, 135, 0.4);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: .4s all;
+}
+
+.hover p {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.hover p span {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.box:hover .hover {
+    width: 100%;
+}
+
+.service-title {
+    font-family: 'Source Serif 4', sans-serif;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
